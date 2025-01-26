@@ -7,3 +7,5 @@ class MySimpleHTTP {
   constructor(baseURL = '') {
     this.baseURL = baseURL;
   }
+/**
+   * Generic request method
