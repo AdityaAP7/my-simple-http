@@ -23,3 +23,4 @@ class MySimpleHTTP {
 
         : config.url;
       const parsedURL = urlModule.parse(fullURL);
+      const options = {
