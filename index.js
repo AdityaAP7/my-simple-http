@@ -19,3 +19,4 @@ class MySimpleHTTP {
     return new Promise((resolve, reject) => {
       // Merge baseURL with the provided url
       const fullURL = this.baseURL
+        ? new URL(config.url, this.baseURL).toString()
