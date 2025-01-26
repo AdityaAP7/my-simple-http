@@ -15,3 +15,4 @@ class MySimpleHTTP {
    * @param {Object} [config.headers] - Request headers
    * @param {Object|String} [config.data] - Request body for POST, PUT, PATCH
    */
+  request(config) {
