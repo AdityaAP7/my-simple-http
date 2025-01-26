@@ -16,3 +16,4 @@ class MySimpleHTTP {
    * @param {Object|String} [config.data] - Request body for POST, PUT, PATCH
    */
   request(config) {
+    return new Promise((resolve, reject) => {
