@@ -20,3 +20,5 @@ class MySimpleHTTP {
       // Merge baseURL with the provided url
       const fullURL = this.baseURL
         ? new URL(config.url, this.baseURL).toString()
+
+        : config.url;
