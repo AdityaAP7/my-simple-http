@@ -17,3 +17,4 @@ class MySimpleHTTP {
    */
   request(config) {
     return new Promise((resolve, reject) => {
+      // Merge baseURL with the provided url
