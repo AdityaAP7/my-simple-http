@@ -29,3 +29,4 @@ class MySimpleHTTP {
         path: parsedURL.path,
         method: config.method,
         headers: config.headers || {},
+  };
