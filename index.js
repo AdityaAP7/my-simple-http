@@ -30,3 +30,4 @@ class MySimpleHTTP {
         method: config.method,
         headers: config.headers || {},
   };
+      // If we are sending a JSON body and no 'Content-Type' is set, default it
