@@ -39,3 +39,4 @@ class MySimpleHTTP {
       const req = transport.request(options, (res) => {
         let responseData = '';
         // Collect data
+        res.on('data', (chunk) => {
