@@ -35,3 +35,4 @@ class MySimpleHTTP {
         options.headers['Content-Type'] = 'application/json';
 }
       // Decide whether to use http or https
+      const transport = parsedURL.protocol === 'https:' ? https : http;
