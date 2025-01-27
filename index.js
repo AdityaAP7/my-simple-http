@@ -48,3 +48,5 @@ class MySimpleHTTP {
           try {
             responseData = JSON.parse(responseData);
           } catch (err) {
+            // If it’s not valid JSON, we leave it as a string
+          }
