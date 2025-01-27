@@ -43,3 +43,4 @@ class MySimpleHTTP {
  responseData += chunk;
         });
         // Response ended
+        res.on('end', () => {
