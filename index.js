@@ -34,3 +34,4 @@ class MySimpleHTTP {
       if (config.data && !options.headers['Content-Type']) {
         options.headers['Content-Type'] = 'application/json';
 }
+      // Decide whether to use http or https
