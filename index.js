@@ -36,3 +36,4 @@ class MySimpleHTTP {
 }
       // Decide whether to use http or https
       const transport = parsedURL.protocol === 'https:' ? https : http;
+      const req = transport.request(options, (res) => {
