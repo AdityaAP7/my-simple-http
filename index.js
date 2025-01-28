@@ -77,3 +77,4 @@ class MySimpleHTTP {
       // Write request data if available
       if (config.data) {
         if (typeof config.data === 'object') {
+          req.write(JSON.stringify(config.data));
