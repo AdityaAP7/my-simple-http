@@ -68,3 +68,4 @@ class MySimpleHTTP {
             // or just resolve to handle it outside
             resolve(response);
  }
+});
