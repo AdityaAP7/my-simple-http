@@ -86,3 +86,6 @@ class MySimpleHTTP {
       req.end();
     });
  }
+/**
+   * Shorthand methods (GET, POST, etc.)
+   */
