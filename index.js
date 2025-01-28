@@ -89,3 +89,4 @@ class MySimpleHTTP {
 /**
    * Shorthand methods (GET, POST, etc.)
    */
+  get(url, config = {}) {
