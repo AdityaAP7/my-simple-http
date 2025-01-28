@@ -74,3 +74,4 @@ class MySimpleHTTP {
       req.on('error', (err) => {
         reject(err);
 });
+      // Write request data if available
