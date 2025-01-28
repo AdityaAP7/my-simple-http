@@ -75,3 +75,4 @@ class MySimpleHTTP {
         reject(err);
 });
       // Write request data if available
+      if (config.data) {
