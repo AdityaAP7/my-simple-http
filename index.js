@@ -58,3 +58,4 @@ class MySimpleHTTP {
             headers: res.headers,
             config: config,
             request: req,
+  };
