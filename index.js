@@ -53,3 +53,4 @@ class MySimpleHTTP {
           // Construct a similar response shape as Axios
           const response = {
             data: responseData,
+            status: res.statusCode,
