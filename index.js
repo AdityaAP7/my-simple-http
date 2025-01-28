@@ -63,3 +63,4 @@ class MySimpleHTTP {
           if (res.statusCode >= 200 && res.statusCode < 300) {
             resolve(response);
           } else {
+            // Optionally, you could reject if non-2xx:
