@@ -90,3 +90,4 @@ class MySimpleHTTP {
    * Shorthand methods (GET, POST, etc.)
    */
   get(url, config = {}) {
+    return this.request({ ...config, method: 'GET', url });
