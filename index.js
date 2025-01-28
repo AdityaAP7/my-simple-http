@@ -60,3 +60,4 @@ class MySimpleHTTP {
             request: req,
   };
           // Resolve the promise
+          if (res.statusCode >= 200 && res.statusCode < 300) {
