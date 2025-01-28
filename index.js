@@ -82,3 +82,4 @@ class MySimpleHTTP {
           req.write(config.data);
  }
       }
+      // End the request
