@@ -66,3 +66,4 @@ class MySimpleHTTP {
             // Optionally, you could reject if non-2xx:
             // reject(new Error(`Request failed with status code ${res.statusCode}`));
             // or just resolve to handle it outside
+            resolve(response);
