@@ -69,3 +69,4 @@ class MySimpleHTTP {
             resolve(response);
  }
 });
+      });
