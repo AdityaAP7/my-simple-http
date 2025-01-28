@@ -70,3 +70,4 @@ class MySimpleHTTP {
  }
 });
       });
+      // Handle errors
