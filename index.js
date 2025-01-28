@@ -59,3 +59,4 @@ class MySimpleHTTP {
             config: config,
             request: req,
   };
+          // Resolve the promise
