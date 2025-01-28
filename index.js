@@ -76,3 +76,4 @@ class MySimpleHTTP {
 });
       // Write request data if available
       if (config.data) {
+        if (typeof config.data === 'object') {
