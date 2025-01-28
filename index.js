@@ -57,3 +57,4 @@ class MySimpleHTTP {
             statusText: res.statusMessage,
             headers: res.headers,
             config: config,
+            request: req,
