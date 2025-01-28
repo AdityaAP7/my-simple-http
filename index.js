@@ -54,3 +54,4 @@ class MySimpleHTTP {
           const response = {
             data: responseData,
             status: res.statusCode,
+            statusText: res.statusMessage,
