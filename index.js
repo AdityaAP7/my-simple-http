@@ -80,3 +80,5 @@ class MySimpleHTTP {
           req.write(JSON.stringify(config.data));
         } else {
           req.write(config.data);
+ }
+      }
