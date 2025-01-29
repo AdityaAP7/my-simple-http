@@ -2,3 +2,4 @@ npm install my-simple-http-client
 
 const MySimpleHTTP = require('my-simple-http-client');
 const client = new MySimpleHTTP('https://api.example.com');
+client.get('/data').then((res) => console.log(res.data));
