@@ -14,3 +14,4 @@ async function testClient() {
       userId: 1,
     });
     console.log('POST /posts Response:', postResponse.data);
+  } catch (err) {
