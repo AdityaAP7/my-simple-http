@@ -1,2 +1,3 @@
 npm install my-simple-http-client
 
+const MySimpleHTTP = require('my-simple-http-client');
