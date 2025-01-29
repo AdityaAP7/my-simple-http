@@ -10,3 +10,4 @@ async function testClient() {
     // Example: POST request
     const postResponse = await client.post('/posts', {
       title: 'foo',
+      body: 'bar',
