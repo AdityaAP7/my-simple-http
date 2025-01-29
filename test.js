@@ -11,3 +11,4 @@ async function testClient() {
     const postResponse = await client.post('/posts', {
       title: 'foo',
       body: 'bar',
+      userId: 1,
