@@ -13,3 +13,4 @@ async function testClient() {
       body: 'bar',
       userId: 1,
     });
+    console.log('POST /posts Response:', postResponse.data);
