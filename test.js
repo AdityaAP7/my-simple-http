@@ -15,3 +15,4 @@ async function testClient() {
     });
     console.log('POST /posts Response:', postResponse.data);
   } catch (err) {
+    console.error('Error:', err);
