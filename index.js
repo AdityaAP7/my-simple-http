@@ -39,3 +39,4 @@ class MySimpleHTTP {
 
  ...(finalConfig.headers || {}),
     };
+    return new Promise((resolve, reject) => {
