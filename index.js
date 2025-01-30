@@ -11,3 +11,4 @@ class MySimpleHTTP {
    * @param {Array<Function>} [options.responseInterceptors=[]] - Functions to intercept responses
    */
   constructor(baseURL = '', options = {}) {
+    this.baseURL = baseURL;
