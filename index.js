@@ -47,3 +47,4 @@ class MySimpleHTTP {
  // Parse URL
       const parsedURL = urlModule.parse(fullURL);
       const options = {
+        hostname: parsedURL.hostname,
