@@ -55,3 +55,5 @@ class MySimpleHTTP {
       };
       // If we are sending a JSON body and no 'Content-Type' is set, default it
       if (finalConfig.data && !options.headers['Content-Type']) {
+ options.headers['Content-Type'] = 'application/json';
+      }
