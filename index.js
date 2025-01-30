@@ -28,3 +28,4 @@ class MySimpleHTTP {
    * @returns {Promise<Object>} - Axios-like response object
    */
   async request(config) {
+    // ---- 1. Run request interceptors (if any)
