@@ -30,3 +30,4 @@ class MySimpleHTTP {
   async request(config) {
     // ---- 1. Run request interceptors (if any)
     let finalConfig = { ...config };
+    for (const interceptor of this.requestInterceptors) {
