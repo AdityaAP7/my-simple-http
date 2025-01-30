@@ -27,3 +27,4 @@ class MySimpleHTTP {
    * @param {Object|String} [config.data] - Request body for POST, PUT, PATCH
    * @returns {Promise<Object>} - Axios-like response object
    */
+  async request(config) {
