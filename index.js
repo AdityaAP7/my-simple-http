@@ -42,3 +42,4 @@ class MySimpleHTTP {
     return new Promise((resolve, reject) => {
            // Construct full URL
 
+      const fullURL = this.baseURL
