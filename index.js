@@ -53,3 +53,4 @@ class MySimpleHTTP {
         method: finalConfig.method,
         headers: finalConfig.headers,
       };
+      // If we are sending a JSON body and no 'Content-Type' is set, default it
