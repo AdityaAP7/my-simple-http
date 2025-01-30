@@ -15,3 +15,4 @@ class MySimpleHTTP {
     this.defaultHeaders = options.defaultHeaders || {};
     this.timeout = options.timeout || 0;
     // Each interceptor is a function that takes the config/response and returns it (or throws).
+    this.requestInterceptors = options.requestInterceptors || [];
