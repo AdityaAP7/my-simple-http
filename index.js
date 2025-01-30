@@ -59,3 +59,4 @@ class MySimpleHTTP {
       }
       // Decide whether to use http or https
       const transport = parsedURL.protocol === 'https:' ? https : http;
+      // Create the request
