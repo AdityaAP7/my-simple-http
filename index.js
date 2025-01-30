@@ -35,3 +35,5 @@ class MySimpleHTTP {
     }
     // Merge default headers
     finalConfig.headers = {
+           ...this.defaultHeaders,
+
