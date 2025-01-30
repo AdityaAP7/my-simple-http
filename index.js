@@ -18,3 +18,12 @@ class MySimpleHTTP {
     this.requestInterceptors = options.requestInterceptors || [];
     this.responseInterceptors = options.responseInterceptors || [];
   }
+ /**
+   * Generic request method
+   * @param {Object} config
+   * @param {String} config.method - HTTP method (GET, POST, etc.)
+   * @param {String} config.url - Request URL (path part only if baseURL is used)
+   * @param {Object} [config.headers] - Request headers
+   * @param {Object|String} [config.data] - Request body for POST, PUT, PATCH
+   * @returns {Promise<Object>} - Axios-like response object
+   */
