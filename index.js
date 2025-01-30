@@ -37,3 +37,5 @@ class MySimpleHTTP {
     finalConfig.headers = {
            ...this.defaultHeaders,
 
+ ...(finalConfig.headers || {}),
+    };
