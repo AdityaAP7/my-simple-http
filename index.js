@@ -33,3 +33,4 @@ class MySimpleHTTP {
     for (const interceptor of this.requestInterceptors) {
  finalConfig = await interceptor(finalConfig);
     }
+    // Merge default headers
