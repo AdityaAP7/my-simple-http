@@ -10,3 +10,4 @@ class MySimpleHTTP {
    * @param {Array<Function>} [options.requestInterceptors=[]] - Functions to intercept request configs
    * @param {Array<Function>} [options.responseInterceptors=[]] - Functions to intercept responses
    */
+  constructor(baseURL = '', options = {}) {
