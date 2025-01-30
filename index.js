@@ -34,3 +34,4 @@ class MySimpleHTTP {
  finalConfig = await interceptor(finalConfig);
     }
     // Merge default headers
+    finalConfig.headers = {
