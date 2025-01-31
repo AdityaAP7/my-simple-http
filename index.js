@@ -64,3 +64,4 @@ class MySimpleHTTP {
         let responseData = '';
         // Collect data
         res.on('data', (chunk) => {
+ responseData += chunk;
