@@ -92,3 +92,4 @@ responseData += chunk;
  request: req,
           };
           // ---- 2. Run response interceptors (if any)
+          (async () => {
