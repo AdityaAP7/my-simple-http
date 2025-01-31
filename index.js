@@ -87,3 +87,4 @@ responseData += chunk;
             data: responseData,
             status: res.statusCode,
             statusText: res.statusMessage,
+            headers: res.headers,
