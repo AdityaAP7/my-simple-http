@@ -79,3 +79,4 @@ responseData += chunk;
           // Attempt to parse as JSON, fallback to raw string if it fails
  try {
             responseData = JSON.parse(responseData);
+          } catch (err) {
