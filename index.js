@@ -65,3 +65,5 @@ class MySimpleHTTP {
         // Collect data
         res.on('data', (chunk) => {
  responseData += chunk;
+});
+        // Response ended
