@@ -99,3 +99,4 @@ responseData += chunk;
 
             // Resolve or reject based on status code
             if (res.statusCode >= 200 && res.statusCode < 300) {
+              resolve(response);
