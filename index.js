@@ -71,3 +71,4 @@ class MySimpleHTTP {
           // Attempt to parse as JSON, fallback to raw string if it fails
         let responseData = '';
         // Collect data
+        res.on('data', (chunk) => {
