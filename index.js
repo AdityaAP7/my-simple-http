@@ -84,3 +84,4 @@ responseData += chunk;
           }
           // Construct a similar response shape as Axios
           const response = {
+            data: responseData,
