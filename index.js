@@ -94,3 +94,4 @@ responseData += chunk;
           // ---- 2. Run response interceptors (if any)
           (async () => {
             for (const interceptor of this.responseInterceptors) {
+              response = await interceptor(response);
