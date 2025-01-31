@@ -61,3 +61,4 @@ class MySimpleHTTP {
       const transport = parsedURL.protocol === 'https:' ? https : http;
       // Create the request
       const req = transport.request(options, (res) => {
+        let responseData = '';
