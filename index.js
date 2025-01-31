@@ -62,3 +62,4 @@ class MySimpleHTTP {
       // Create the request
       const req = transport.request(options, (res) => {
         let responseData = '';
+        // Collect data
