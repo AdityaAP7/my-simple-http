@@ -88,3 +88,4 @@ responseData += chunk;
             status: res.statusCode,
             statusText: res.statusMessage,
             headers: res.headers,
+            config: finalConfig,
