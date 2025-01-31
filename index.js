@@ -95,3 +95,6 @@ responseData += chunk;
           (async () => {
             for (const interceptor of this.responseInterceptors) {
               response = await interceptor(response);
+}
+
+            // Resolve or reject based on status code
