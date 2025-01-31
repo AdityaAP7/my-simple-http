@@ -68,3 +68,4 @@ class MySimpleHTTP {
 });
         // Response ended
         res.on('end', () => {
+          // Attempt to parse as JSON, fallback to raw string if it fails
