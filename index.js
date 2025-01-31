@@ -83,3 +83,4 @@ responseData += chunk;
        // If it’s not valid JSON, we leave it as a string
           }
           // Construct a similar response shape as Axios
+          const response = {
