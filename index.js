@@ -114,3 +114,4 @@ responseData += chunk;
    reject(err);
       });
       // Handle timeout if specified
+      if (this.timeout > 0) {
