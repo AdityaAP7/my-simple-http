@@ -116,3 +116,4 @@ responseData += chunk;
       // Handle timeout if specified
       if (this.timeout > 0) {
         req.setTimeout(this.timeout, () => {
+          req.destroy(new Error('Request timed out'));
