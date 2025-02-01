@@ -141,3 +141,5 @@ responseData += chunk;
  return this.request({ ...config, method: 'POST', url, data });
   }
   put(url, data, config = {}) {
+ return this.request({ ...config, method: 'PUT', url, data });
+  }
