@@ -110,3 +110,4 @@ responseData += chunk;
   });
       });
       // Handle errors
+      req.on('error', (err) => {
