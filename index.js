@@ -113,3 +113,4 @@ responseData += chunk;
       req.on('error', (err) => {
    reject(err);
       });
+      // Handle timeout if specified
