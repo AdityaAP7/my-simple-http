@@ -136,3 +136,5 @@ responseData += chunk;
    */
   get(url, config = {}) {
     return this.request({ ...config, method: 'GET', url });
+  }
+
