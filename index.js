@@ -127,3 +127,7 @@ responseData += chunk;
           req.write(finalConfig.data);
         }
       }
+ // End the request
+      req.end();
+    });
+  }
