@@ -109,3 +109,4 @@ responseData += chunk;
           })().catch(reject);
   });
       });
+      // Handle errors
