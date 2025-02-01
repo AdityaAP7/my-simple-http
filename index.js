@@ -119,3 +119,4 @@ responseData += chunk;
           req.destroy(new Error('Request timed out'));
   });
       }
+      // Write request data if available
