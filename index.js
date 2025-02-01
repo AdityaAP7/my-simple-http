@@ -122,3 +122,4 @@ responseData += chunk;
       // Write request data if available
       if (finalConfig.data) {
         if (typeof finalConfig.data === 'object') {
+          req.write(JSON.stringify(finalConfig.data));
