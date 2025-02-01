@@ -105,3 +105,5 @@ responseData += chunk;
               // reject(new Error(`Request failed with status code ${res.statusCode}`));
               // or just resolve to handle it outside
               resolve(response);
+    }
+          })().catch(reject);
