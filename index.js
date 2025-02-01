@@ -123,3 +123,7 @@ responseData += chunk;
       if (finalConfig.data) {
         if (typeof finalConfig.data === 'object') {
           req.write(JSON.stringify(finalConfig.data));
+ } else {
+          req.write(finalConfig.data);
+        }
+      }
