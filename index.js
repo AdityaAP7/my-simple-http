@@ -134,3 +134,4 @@ responseData += chunk;
   /**
    * Shorthand methods
    */
+  get(url, config = {}) {
