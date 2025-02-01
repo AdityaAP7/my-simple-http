@@ -107,3 +107,5 @@ responseData += chunk;
               resolve(response);
     }
           })().catch(reject);
+  });
+      });
