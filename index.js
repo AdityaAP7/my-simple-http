@@ -102,3 +102,4 @@ responseData += chunk;
               resolve(response);
             } else {
               // Optionally, you could reject if non-2xx:
+              // reject(new Error(`Request failed with status code ${res.statusCode}`));
