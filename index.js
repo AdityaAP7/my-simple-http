@@ -131,3 +131,6 @@ responseData += chunk;
       req.end();
     });
   }
+  /**
+   * Shorthand methods
+   */
