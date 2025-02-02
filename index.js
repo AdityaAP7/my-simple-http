@@ -183,3 +183,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
     timeout: 5000, // 5s
     // Log config before request
     requestInterceptors: [
+      async (config) => {
