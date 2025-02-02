@@ -182,3 +182,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
     defaultHeaders: { 'X-Custom-Header': 'MySimpleHTTP' },
     timeout: 5000, // 5s
     // Log config before request
+    requestInterceptors: [
