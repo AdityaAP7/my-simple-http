@@ -199,3 +199,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
 
   try {
     // GET request
+    const response = await httpClient.get('/posts/1');
