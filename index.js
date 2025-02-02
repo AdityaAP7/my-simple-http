@@ -155,3 +155,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
    * @param {Object} params - query params   */
   buildURLWithParams(url, params = {}) {
     const urlObj = new URL(url, this.baseURL);
+    Object.keys(params).forEach((key) => {
