@@ -167,3 +167,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
    * @param {Object} config
  * @returns {Promise<Object>}
    */
+  getWithParams(url, params = {}, config = {}) {
