@@ -185,3 +185,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
     requestInterceptors: [
       async (config) => {
         console.log('Request interceptor:', config.method, config.url);
+        return config;
