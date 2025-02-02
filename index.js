@@ -173,3 +173,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
   }
 }
 // ---------------------------
+// Example usage:
