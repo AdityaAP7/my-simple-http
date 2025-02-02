@@ -191,3 +191,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
     // Log response status after response
     responseInterceptors: [
       async (response) => {
+        console.log('Response interceptor:', response.status);
