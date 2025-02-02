@@ -203,3 +203,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
     console.log('GET Response data:', response.data);
     // POST request
     const postResponse = await httpClient.post('/posts', {
+      title: 'foo',
