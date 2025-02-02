@@ -152,5 +152,5 @@ return this.request({ ...config, method: 'PATCH', url, data });
    * Helper to build query strings and append to URL easily
    * @param {String} url - base path
    * @param {String} url - base path
-   * @param {Object} params - query params
+   * @param {Object} params - query params   */
   buildURLWithParams(url, params = {}) {
