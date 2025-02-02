@@ -204,3 +204,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
     // POST request
     const postResponse = await httpClient.post('/posts', {
       title: 'foo',
+      body: 'bar',
