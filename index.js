@@ -205,3 +205,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
     const postResponse = await httpClient.post('/posts', {
       title: 'foo',
       body: 'bar',
+      userId: 1,
