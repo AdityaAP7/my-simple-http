@@ -188,3 +188,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
         return config;
  },
     ],
+    // Log response status after response
