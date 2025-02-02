@@ -163,3 +163,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
  /**
    * Convenience method to do GET with query params
    * @param {String} url
+   * @param {Object} params - query params
