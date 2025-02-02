@@ -165,3 +165,5 @@ return this.request({ ...config, method: 'PATCH', url, data });
    * @param {String} url
    * @param {Object} params - query params
    * @param {Object} config
+ * @returns {Promise<Object>}
+   */
