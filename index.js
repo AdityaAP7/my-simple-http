@@ -168,3 +168,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
  * @returns {Promise<Object>}
    */
   getWithParams(url, params = {}, config = {}) {
+    const fullURL = this.buildURLWithParams(url, params);
