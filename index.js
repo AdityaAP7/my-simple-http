@@ -180,3 +180,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
   // Create an instance with default headers and a timeout
   const httpClient = new MySimpleHTTP('https://jsonplaceholder.typicode.com', {
     defaultHeaders: { 'X-Custom-Header': 'MySimpleHTTP' },
+    timeout: 5000, // 5s
