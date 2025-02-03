@@ -30,3 +30,4 @@
       body: 'bar',
  userId: 1,
     });
+    console.log('POST Response data:', postResponse.data);
