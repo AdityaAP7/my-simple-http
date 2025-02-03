@@ -14,3 +14,4 @@
     ],
     // Log response status after response
     responseInterceptors: [
+      async (response) => {
