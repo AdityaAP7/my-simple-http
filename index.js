@@ -210,4 +210,5 @@ return this.request({ ...config, method: 'PATCH', url, data });
     console.log('POST Response data:', postResponse.data);
     // GET with query params
         const queryResponse = await httpClient.getWithParams('/posts', { userId: 1 });
+    console.log('GET with params data:', queryResponse.data);
 
