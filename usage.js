@@ -22,3 +22,4 @@
   });
   try {
     // GET request
+    const response = await httpClient.get('/posts/1');
