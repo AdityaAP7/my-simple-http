@@ -7,3 +7,4 @@
     timeout: 5000, // 5s
     // Log config before request
     requestInterceptors: [
+      async (config) => {
