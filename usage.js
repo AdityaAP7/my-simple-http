@@ -3,3 +3,4 @@
 
  
   const httpClient = new MySimpleHTTP('https://jsonplaceholder.typicode.com', {
+    defaultHeaders: { 'X-Custom-Header': 'MySimpleHTTP' },
