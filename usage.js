@@ -28,3 +28,5 @@
     const postResponse = await httpClient.post('/posts', {
       title: 'foo',
       body: 'bar',
+ userId: 1,
+    });
