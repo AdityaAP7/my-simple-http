@@ -27,3 +27,4 @@
     // POST request
     const postResponse = await httpClient.post('/posts', {
       title: 'foo',
+      body: 'bar',
