@@ -12,3 +12,4 @@
         return config;
  },
     ],
+    // Log response status after response
