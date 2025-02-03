@@ -6,3 +6,4 @@
     defaultHeaders: { 'X-Custom-Header': 'MySimpleHTTP' },
     timeout: 5000, // 5s
     // Log config before request
+    requestInterceptors: [
