@@ -15,3 +15,4 @@
     // Log response status after response
     responseInterceptors: [
       async (response) => {
+        console.log('Response interceptor:', response.status);
