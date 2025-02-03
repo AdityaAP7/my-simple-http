@@ -32,3 +32,4 @@
     });
     console.log('POST Response data:', postResponse.data);
     // GET with query params
+    const queryResponse = await httpClient.getWithParams('/posts', { userId: 1 });
