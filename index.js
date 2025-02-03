@@ -208,3 +208,4 @@ return this.request({ ...config, method: 'PATCH', url, data });
       userId: 1,
 });
     console.log('POST Response data:', postResponse.data);
+    // GET with query params
