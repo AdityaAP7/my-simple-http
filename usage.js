@@ -38,3 +38,4 @@
  console.error('Request Error:', error);
   }
 })();
+module.exports = MySimpleHTTP;
