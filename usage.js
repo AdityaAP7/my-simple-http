@@ -2,3 +2,4 @@
   // Create an instance with default headers and a timeout
 
  
+  const httpClient = new MySimpleHTTP('https://jsonplaceholder.typicode.com', {
