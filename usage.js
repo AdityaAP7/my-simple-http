@@ -16,3 +16,4 @@
     responseInterceptors: [
       async (response) => {
         console.log('Response interceptor:', response.status);
+        return response;
