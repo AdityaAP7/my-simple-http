@@ -213,4 +213,7 @@ return this.request({ ...config, method: 'PATCH', url, data });
     console.log('GET with params data:', queryResponse.data);
   } catch (error) {
     console.error('Request Error:', error);
+ }
+})();
+*/
 
