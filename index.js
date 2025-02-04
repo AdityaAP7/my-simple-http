@@ -20,3 +20,4 @@ class MySimpleHTTP {
     this.defaultHeaders = options.defaultHeaders || {};
     this.timeout = options.timeout || 0;
     this.maxRetries = options.maxRetries || 3;
+    this.retryDelay = options.retryDelay || 1000;
