@@ -15,3 +15,4 @@ class MySimpleHTTP {
    * @param {Number} [options.maxRetries=3] - Maximum number of retries on failure
    * @param {Number} [options.retryDelay=1000] - Delay (in ms) between retries
    */
+  constructor(baseURL = '', options = {}) {
