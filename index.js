@@ -19,3 +19,4 @@ class MySimpleHTTP {
     this.baseURL = baseURL;
     this.defaultHeaders = options.defaultHeaders || {};
     this.timeout = options.timeout || 0;
+    this.maxRetries = options.maxRetries || 3;
