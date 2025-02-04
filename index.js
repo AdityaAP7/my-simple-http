@@ -22,3 +22,4 @@ class MySimpleHTTP {
     this.maxRetries = options.maxRetries || 3;
     this.retryDelay = options.retryDelay || 1000;
     this.requestInterceptors = options.requestInterceptors || [];
+    this.responseInterceptors = options.responseInterceptors || [];
