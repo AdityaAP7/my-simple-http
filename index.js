@@ -41,3 +41,6 @@ class MySimpleHTTP {
    finalConfig = await interceptor(finalConfig);
     }
     finalConfig.headers = {
+      ...this.defaultHeaders,
+
+     
