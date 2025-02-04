@@ -16,3 +16,4 @@ class MySimpleHTTP {
    * @param {Number} [options.retryDelay=1000] - Delay (in ms) between retries
    */
   constructor(baseURL = '', options = {}) {
+    this.baseURL = baseURL;
