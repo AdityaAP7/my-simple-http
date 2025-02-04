@@ -40,3 +40,4 @@ class MySimpleHTTP {
     for (const interceptor of this.requestInterceptors) {
    finalConfig = await interceptor(finalConfig);
     }
+    finalConfig.headers = {
