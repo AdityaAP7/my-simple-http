@@ -35,3 +35,4 @@ class MySimpleHTTP {
    * @param {Number} [config.retries] - Custom number of retries for this request
    * @returns {Promise<Object>} - Axios-like response object
    */
+  async request(config) {
