@@ -36,3 +36,4 @@ class MySimpleHTTP {
    * @returns {Promise<Object>} - Axios-like response object
    */
   async request(config) {
+    let finalConfig = { ...config };
