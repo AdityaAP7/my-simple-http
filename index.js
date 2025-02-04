@@ -23,3 +23,5 @@ class MySimpleHTTP {
     this.retryDelay = options.retryDelay || 1000;
     this.requestInterceptors = options.requestInterceptors || [];
     this.responseInterceptors = options.responseInterceptors || [];
+ this.globalErrorHandler = options.globalErrorHandler || null; // Optional global error handler
+  }
