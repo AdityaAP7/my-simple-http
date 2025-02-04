@@ -45,3 +45,4 @@ class MySimpleHTTP {
 
         ...(finalConfig.headers || {}),
     };
+    const attemptRequest = async (retries) => {
