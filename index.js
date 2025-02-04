@@ -21,3 +21,4 @@ class MySimpleHTTP {
     this.timeout = options.timeout || 0;
     this.maxRetries = options.maxRetries || 3;
     this.retryDelay = options.retryDelay || 1000;
+    this.requestInterceptors = options.requestInterceptors || [];
