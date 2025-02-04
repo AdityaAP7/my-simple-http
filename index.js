@@ -17,3 +17,4 @@ class MySimpleHTTP {
    */
   constructor(baseURL = '', options = {}) {
     this.baseURL = baseURL;
+    this.defaultHeaders = options.defaultHeaders || {};
