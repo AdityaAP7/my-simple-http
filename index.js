@@ -25,3 +25,13 @@ class MySimpleHTTP {
     this.responseInterceptors = options.responseInterceptors || [];
  this.globalErrorHandler = options.globalErrorHandler || null; // Optional global error handler
   }
+/**
+   * Generic request method
+   * @param {Object} config
+   * @param {String} config.method - HTTP method (GET, POST, etc.)
+   * @param {String} config.url - Request URL (path part only if baseURL is used)
+   * @param {Object} [config.headers] - Request headers
+   * @param {Object|String} [config.data] - Request body for POST, PUT, PATCH
+   * @param {Number} [config.retries] - Custom number of retries for this request
+   * @returns {Promise<Object>} - Axios-like response object
+   */
