@@ -47,3 +47,4 @@ class MySimpleHTTP {
     };
     const attemptRequest = async (retries) => {
       try {
+        // Construct full URL
