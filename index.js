@@ -64,3 +64,7 @@ options.headers['Content-Type'] = 'application/json';
         }
         const transport = parsedURL.protocol === 'https:' ? https : http;
         return new Promise((resolve, reject) => {
+          const req = transport.request(options, (res) => {
+            let responseData = '';
+
+                                        
