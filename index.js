@@ -54,3 +54,4 @@ class MySimpleHTTP {
         const parsedURL = urlModule.parse(fullURL);
         const options = {
           hostname: parsedURL.hostname,
+          port: parsedURL.port || (parsedURL.protocol === 'https:' ? 443 : 80),
