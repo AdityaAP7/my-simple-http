@@ -60,3 +60,5 @@ class MySimpleHTTP {
      headers: finalConfig.headers,
         };
         if (finalConfig.data && !options.headers['Content-Type']) {
+options.headers['Content-Type'] = 'application/json';
+        }
