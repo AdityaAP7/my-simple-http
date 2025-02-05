@@ -84,3 +84,4 @@ options.headers['Content-Type'] = 'application/json';
                 config: finalConfig,
  request: req,
               };
+              for (const interceptor of this.responseInterceptors) {
