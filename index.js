@@ -55,3 +55,4 @@ class MySimpleHTTP {
         const options = {
           hostname: parsedURL.hostname,
           port: parsedURL.port || (parsedURL.protocol === 'https:' ? 443 : 80),
+          path: parsedURL.path,
