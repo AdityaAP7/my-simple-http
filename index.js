@@ -81,3 +81,4 @@ options.headers['Content-Type'] = 'application/json';
                 status: res.statusCode,
                 statusText: res.statusMessage,
                 headers: res.headers,
+                config: finalConfig,
