@@ -62,3 +62,4 @@ class MySimpleHTTP {
         if (finalConfig.data && !options.headers['Content-Type']) {
 options.headers['Content-Type'] = 'application/json';
         }
+        const transport = parsedURL.protocol === 'https:' ? https : http;
