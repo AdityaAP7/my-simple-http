@@ -67,4 +67,5 @@ options.headers['Content-Type'] = 'application/json';
           const req = transport.request(options, (res) => {
             let responseData = '';
 
-                                        
+                                      res.on('data', (chunk) => {
+              
