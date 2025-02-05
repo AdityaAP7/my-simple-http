@@ -98,3 +98,4 @@ options.headers['Content-Type'] = 'application/json';
   reject(err);
           });
           if (this.timeout > 0) {
+            req.setTimeout(this.timeout, () => {
