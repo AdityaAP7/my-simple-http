@@ -59,3 +59,4 @@ class MySimpleHTTP {
           method: finalConfig.method,
      headers: finalConfig.headers,
         };
+        if (finalConfig.data && !options.headers['Content-Type']) {
