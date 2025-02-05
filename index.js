@@ -57,3 +57,5 @@ class MySimpleHTTP {
           port: parsedURL.port || (parsedURL.protocol === 'https:' ? 443 : 80),
           path: parsedURL.path,
           method: finalConfig.method,
+     headers: finalConfig.headers,
+        };
