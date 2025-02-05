@@ -49,3 +49,4 @@ class MySimpleHTTP {
       try {
         // Construct full URL
         const fullURL = this.baseURL
+          ? new URL(finalConfig.url, this.baseURL).toString()
