@@ -88,3 +88,4 @@ options.headers['Content-Type'] = 'application/json';
  response = await interceptor(response);
               }
               if (res.statusCode >= 200 && res.statusCode < 300) {
+                resolve(response);
