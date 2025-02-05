@@ -76,3 +76,4 @@ options.headers['Content-Type'] = 'application/json';
      } catch (err) {
                 // If not valid JSON, leave it as a string
               }
+              const response = {
