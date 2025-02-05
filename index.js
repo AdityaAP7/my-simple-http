@@ -68,4 +68,5 @@ options.headers['Content-Type'] = 'application/json';
             let responseData = '';
 
                                       res.on('data', (chunk) => {
-              
+                            responseData += chunk;
+
