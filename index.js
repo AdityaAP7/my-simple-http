@@ -71,3 +71,4 @@ options.headers['Content-Type'] = 'application/json';
                             responseData += chunk;
    });
             res.on('end', async () => {
+ try {
