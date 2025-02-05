@@ -73,3 +73,6 @@ options.headers['Content-Type'] = 'application/json';
             res.on('end', async () => {
  try {
                 responseData = JSON.parse(responseData);
+     } catch (err) {
+                // If not valid JSON, leave it as a string
+              }
