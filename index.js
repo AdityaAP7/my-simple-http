@@ -72,3 +72,4 @@ options.headers['Content-Type'] = 'application/json';
    });
             res.on('end', async () => {
  try {
+                responseData = JSON.parse(responseData);
