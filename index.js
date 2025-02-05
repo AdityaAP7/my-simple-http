@@ -102,3 +102,4 @@ options.headers['Content-Type'] = 'application/json';
               req.destroy(new Error('Request timed out'));
   });
           }
+          if (finalConfig.data) {
