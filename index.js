@@ -53,3 +53,4 @@ class MySimpleHTTP {
           : finalConfig.url;
         const parsedURL = urlModule.parse(fullURL);
         const options = {
+          hostname: parsedURL.hostname,
