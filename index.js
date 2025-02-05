@@ -85,3 +85,5 @@ options.headers['Content-Type'] = 'application/json';
  request: req,
               };
               for (const interceptor of this.responseInterceptors) {
+ response = await interceptor(response);
+              }
