@@ -80,3 +80,4 @@ options.headers['Content-Type'] = 'application/json';
                 data: responseData,
                 status: res.statusCode,
                 statusText: res.statusMessage,
+                headers: res.headers,
