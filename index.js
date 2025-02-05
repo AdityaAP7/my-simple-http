@@ -95,3 +95,5 @@ options.headers['Content-Type'] = 'application/json';
             });
           });
           req.on('error', (err) => {
+  reject(err);
+          });
