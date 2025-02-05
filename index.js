@@ -90,3 +90,7 @@ options.headers['Content-Type'] = 'application/json';
               if (res.statusCode >= 200 && res.statusCode < 300) {
                 resolve(response);
               } else {
+ resolve(response); // Handle non-2xx status codes here as needed
+              }
+            });
+          });
