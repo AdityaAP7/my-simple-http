@@ -79,3 +79,4 @@ options.headers['Content-Type'] = 'application/json';
               const response = {
                 data: responseData,
                 status: res.statusCode,
+                statusText: res.statusMessage,
