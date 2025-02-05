@@ -70,3 +70,4 @@ options.headers['Content-Type'] = 'application/json';
                                       res.on('data', (chunk) => {
                             responseData += chunk;
    });
+            res.on('end', async () => {
