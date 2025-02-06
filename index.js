@@ -127,3 +127,4 @@ options.headers['Content-Type'] = 'application/json';
    * @param {Number} ms
  * @returns {Promise}
    */
+  _delay(ms) {
