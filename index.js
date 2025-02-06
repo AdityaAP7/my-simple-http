@@ -108,3 +108,4 @@ options.headers['Content-Type'] = 'application/json';
           req.end();
   });
       } catch (error) {
+        if (retries < this.maxRetries) {
