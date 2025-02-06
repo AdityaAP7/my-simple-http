@@ -122,3 +122,5 @@ options.headers['Content-Type'] = 'application/json';
     };
     return attemptRequest(0);
  }
+ /**
+   * Adds a delay (in ms)
