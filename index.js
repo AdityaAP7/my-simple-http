@@ -113,3 +113,4 @@ options.headers['Content-Type'] = 'application/json';
           await this._delay(this.retryDelay);
           return attemptRequest(retries + 1);
  }
+        if (this.globalErrorHandler) {
