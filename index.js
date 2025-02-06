@@ -115,3 +115,8 @@ options.headers['Content-Type'] = 'application/json';
  }
         if (this.globalErrorHandler) {
   this.globalErrorHandler(error);
+}
+
+        throw error;
+      }
+    };
