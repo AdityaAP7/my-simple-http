@@ -130,3 +130,5 @@ options.headers['Content-Type'] = 'application/json';
   _delay(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
  }
+/**
+   * Shorthand methods
