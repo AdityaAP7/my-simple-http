@@ -105,3 +105,4 @@ options.headers['Content-Type'] = 'application/json';
           if (finalConfig.data) {
  req.write(typeof finalConfig.data === 'object' ? JSON.stringify(finalConfig.data) : finalConfig.data);
           }
+          req.end();
