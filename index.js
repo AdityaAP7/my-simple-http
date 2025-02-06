@@ -120,3 +120,4 @@ options.headers['Content-Type'] = 'application/json';
         throw error;
       }
     };
+    return attemptRequest(0);
