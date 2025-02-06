@@ -125,3 +125,5 @@ options.headers['Content-Type'] = 'application/json';
  /**
    * Adds a delay (in ms)
    * @param {Number} ms
+ * @returns {Promise}
+   */
