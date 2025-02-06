@@ -109,3 +109,4 @@ options.headers['Content-Type'] = 'application/json';
   });
       } catch (error) {
         if (retries < this.maxRetries) {
+          console.log(`Retrying request... (${retries + 1})`);
