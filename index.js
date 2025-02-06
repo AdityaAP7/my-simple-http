@@ -114,3 +114,4 @@ options.headers['Content-Type'] = 'application/json';
           return attemptRequest(retries + 1);
  }
         if (this.globalErrorHandler) {
+  this.globalErrorHandler(error);
