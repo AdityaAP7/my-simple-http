@@ -112,3 +112,4 @@ options.headers['Content-Type'] = 'application/json';
           console.log(`Retrying request... (${retries + 1})`);
           await this._delay(this.retryDelay);
           return attemptRequest(retries + 1);
+ }
