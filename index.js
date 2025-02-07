@@ -168,3 +168,4 @@ Shorthand methods
   getWithParams(url, params = {}, config = {}) {
     const fullURL = this.buildURLWithParams(url, params);
     return this.get(fullURL, config);
+  }
