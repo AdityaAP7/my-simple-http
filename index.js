@@ -176,3 +176,4 @@ Shorthand methods
    * @param {Object} config - Additional configuration
    * @returns {Promise<Object>}
    */
+  async uploadFile(url, file, config = {}) {
