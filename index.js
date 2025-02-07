@@ -145,3 +145,4 @@ Shorthand methods
  }
   delete(url, config = {}) {
     return this.request({ ...config, method: 'DELETE', url });
+  }
