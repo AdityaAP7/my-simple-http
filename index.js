@@ -171,3 +171,4 @@ Shorthand methods
   }
   /**
    * Utility to upload files
+   * @param {String} url - The URL where to upload the file
