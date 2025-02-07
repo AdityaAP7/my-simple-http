@@ -177,3 +177,4 @@ Shorthand methods
    * @returns {Promise<Object>}
    */
   async uploadFile(url, file, config = {}) {
+    const formData = new FormData();
