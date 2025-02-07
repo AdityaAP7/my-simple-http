@@ -174,3 +174,4 @@ Shorthand methods
    * @param {String} url - The URL where to upload the file
    * @param {Object} file - The file to upload (must be a `fs` file stream or buffer)
    * @param {Object} config - Additional configuration
+   * @returns {Promise<Object>}
