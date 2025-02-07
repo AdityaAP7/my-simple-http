@@ -148,3 +148,4 @@ Shorthand methods
   }
  /**
    * Helper to build query strings and append to URL easily
+   * @param {String} url - base path
