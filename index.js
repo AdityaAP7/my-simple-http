@@ -169,3 +169,5 @@ Shorthand methods
     const fullURL = this.buildURLWithParams(url, params);
     return this.get(fullURL, config);
   }
+  /**
+   * Utility to upload files
