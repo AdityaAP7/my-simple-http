@@ -165,3 +165,4 @@ Shorthand methods
    * @param {Object} config
  * @returns {Promise<Object>}
    */
+  getWithParams(url, params = {}, config = {}) {
