@@ -166,3 +166,4 @@ Shorthand methods
  * @returns {Promise<Object>}
    */
   getWithParams(url, params = {}, config = {}) {
+    const fullURL = this.buildURLWithParams(url, params);
