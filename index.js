@@ -155,3 +155,4 @@ Shorthand methods
     const urlObj = new URL(url, this.baseURL);
     Object.keys(params).forEach((key) => {
       urlObj.searchParams.append(key, params[key]);
+    });
