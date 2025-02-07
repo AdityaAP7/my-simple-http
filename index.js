@@ -153,3 +153,4 @@ Shorthand methods
    */
   buildURLWithParams(url, params = {}) {
     const urlObj = new URL(url, this.baseURL);
+    Object.keys(params).forEach((key) => {
