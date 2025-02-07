@@ -163,3 +163,5 @@ Shorthand methods
    * @param {String} url
    * @param {Object} params - query params
    * @param {Object} config
+ * @returns {Promise<Object>}
+   */
