@@ -158,3 +158,5 @@ Shorthand methods
     });
     return urlObj.toString();
  }
+/**
+   * Convenience method to do GET with query params
