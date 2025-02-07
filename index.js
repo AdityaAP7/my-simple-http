@@ -195,3 +195,4 @@ Shorthand methods
 */
   static basicAuth(username, password) {
     const authValue = Buffer.from(`${username}:${password}`).toString('base64');
+    return `Basic ${authValue}`;
