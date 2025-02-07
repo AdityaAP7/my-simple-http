@@ -151,3 +151,4 @@ Shorthand methods
    * @param {String} url - base path
  * @param {Object} params - query params
    */
+  buildURLWithParams(url, params = {}) {
