@@ -135,3 +135,4 @@ Shorthand methods
     return this.request({ ...config, method: 'GET', url });
   }
   post(url, data, config = {}) {
+    return this.request({ ...config, method: 'POST', url, data });
