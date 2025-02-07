@@ -192,3 +192,4 @@ Shorthand methods
    * @param {String} username
    * @param {String} password
    * @returns {String} - Basic Auth header value
+*/
