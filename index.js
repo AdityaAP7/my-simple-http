@@ -197,4 +197,5 @@ Shorthand methods
     const authValue = Buffer.from(`${username}:${password}`).toString('base64');
     return `Basic ${authValue}`;
   }
-}
+}module.exports = MySimpleHTTP;
+
