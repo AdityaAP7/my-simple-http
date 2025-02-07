@@ -143,3 +143,4 @@ Shorthand methods
   patch(url, data, config = {}) {
     return this.request({ ...config, method: 'PATCH', url, data });
  }
+  delete(url, config = {}) {
