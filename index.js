@@ -130,8 +130,7 @@ options.headers['Content-Type'] = 'application/json';
   _delay(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
  }
-/**
-   * Shorthand methods
+Shorthand methods
   get(url, config = {}) {
     return this.request({ ...config, method: 'GET', url });
   }
