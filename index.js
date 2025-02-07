@@ -181,3 +181,4 @@ Shorthand methods
     formData.append('file', file);
     return this.post(url, formData, {
       ...config,
+      headers: {
