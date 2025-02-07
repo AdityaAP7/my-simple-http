@@ -178,3 +178,4 @@ Shorthand methods
    */
   async uploadFile(url, file, config = {}) {
     const formData = new FormData();
+    formData.append('file', file);
