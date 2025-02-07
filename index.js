@@ -133,3 +133,4 @@ options.headers['Content-Type'] = 'application/json';
 /**
    * Shorthand methods
   get(url, config = {}) {
+    return this.request({ ...config, method: 'GET', url });
