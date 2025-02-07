@@ -194,3 +194,4 @@ Shorthand methods
    * @returns {String} - Basic Auth header value
 */
   static basicAuth(username, password) {
+    const authValue = Buffer.from(`${username}:${password}`).toString('base64');
