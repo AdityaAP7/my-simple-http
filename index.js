@@ -172,3 +172,4 @@ Shorthand methods
   /**
    * Utility to upload files
    * @param {String} url - The URL where to upload the file
+   * @param {Object} file - The file to upload (must be a `fs` file stream or buffer)
