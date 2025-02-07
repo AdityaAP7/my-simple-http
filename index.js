@@ -190,3 +190,4 @@ Shorthand methods
   /**
    * Utility for basic authentication
    * @param {String} username
+   * @param {String} password
