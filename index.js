@@ -180,3 +180,4 @@ Shorthand methods
     const formData = new FormData();
     formData.append('file', file);
     return this.post(url, formData, {
+      ...config,
