@@ -182,3 +182,4 @@ Shorthand methods
     return this.post(url, formData, {
       ...config,
       headers: {
+        'Content-Type': 'multipart/form-data',
