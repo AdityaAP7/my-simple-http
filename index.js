@@ -185,3 +185,4 @@ Shorthand methods
         'Content-Type': 'multipart/form-data',
         ...config.headers,
   },
+    });
