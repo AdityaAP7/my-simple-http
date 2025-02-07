@@ -157,3 +157,4 @@ Shorthand methods
       urlObj.searchParams.append(key, params[key]);
     });
     return urlObj.toString();
+ }
