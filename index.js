@@ -186,3 +186,4 @@ Shorthand methods
         ...config.headers,
   },
     });
+  }
