@@ -160,3 +160,4 @@ Shorthand methods
  }
 /**
    * Convenience method to do GET with query params
+   * @param {String} url
