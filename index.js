@@ -141,3 +141,4 @@ Shorthand methods
     return this.request({ ...config, method: 'PUT', url, data });
   }
   patch(url, data, config = {}) {
+    return this.request({ ...config, method: 'PATCH', url, data });
