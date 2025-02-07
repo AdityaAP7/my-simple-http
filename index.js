@@ -193,3 +193,4 @@ Shorthand methods
    * @param {String} password
    * @returns {String} - Basic Auth header value
 */
+  static basicAuth(username, password) {
