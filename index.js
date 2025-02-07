@@ -144,3 +144,4 @@ Shorthand methods
     return this.request({ ...config, method: 'PATCH', url, data });
  }
   delete(url, config = {}) {
+    return this.request({ ...config, method: 'DELETE', url });
