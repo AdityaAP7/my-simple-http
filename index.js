@@ -183,3 +183,4 @@ Shorthand methods
       ...config,
       headers: {
         'Content-Type': 'multipart/form-data',
+        ...config.headers,
