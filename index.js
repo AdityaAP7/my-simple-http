@@ -136,4 +136,5 @@ Shorthand methods
   }
   post(url, data, config = {}) {
     return this.request({ ...config, method: 'POST', url, data });
-}
+}  put(url, data, config = {}) {
+
