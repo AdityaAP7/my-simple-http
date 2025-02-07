@@ -188,3 +188,4 @@ Shorthand methods
     });
   }
   /**
+   * Utility for basic authentication
