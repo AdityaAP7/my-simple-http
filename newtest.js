@@ -18,3 +18,4 @@ async function testClient() {
     console.error('Error:', err);
  }
 }
+testClient();
