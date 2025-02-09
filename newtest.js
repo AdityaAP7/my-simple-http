@@ -6,3 +6,4 @@ async function testClient() {
   try {
     // Example: GET request
     const response = await client.get('/posts/1');
+    const response = await client.get('/posts/1');
