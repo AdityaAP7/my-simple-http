@@ -16,3 +16,4 @@ async function testClient() {
   } catch (err) {
     console.error('Error:', err);
   }
+}
