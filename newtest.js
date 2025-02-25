@@ -14,3 +14,4 @@ async function testClient() {
     });
     console.log('POST /posts Response:', createResponse.data);
     console.log('--- Testing PUT ---');
+    const updateResponse = await client.put('/posts/1', {
