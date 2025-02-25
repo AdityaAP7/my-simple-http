@@ -11,3 +11,4 @@ async function testClient() {
       title: 'foo',
       body: 'bar',
       userId: 1,
+    });
