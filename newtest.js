@@ -3,3 +3,4 @@ const BASE_URL = 'https://jsonplaceholder.typicode.com';
 const client = new MySimpleHTTP(BASE_URL);
 async function testClient() {
   try {
+    console.log('--- Testing GET ---');
