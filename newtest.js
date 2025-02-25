@@ -13,3 +13,4 @@ async function testClient() {
       userId: 1,
     });
     console.log('POST /posts Response:', createResponse.data);
+    console.log('--- Testing PUT ---');
