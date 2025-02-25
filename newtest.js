@@ -8,3 +8,4 @@ async function testClient() {
     console.log('GET /posts/1 Response:', getResponse.data);
     console.log('--- Testing POST ---');
     const createResponse = await client.post('/posts', {
+      title: 'foo',
