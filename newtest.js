@@ -4,3 +4,4 @@ const client = new MySimpleHTTP(BASE_URL);
 async function testClient() {
   try {
     console.log('--- Testing GET ---');
+    const getResponse = await client.get('/posts/1');
