@@ -19,3 +19,4 @@ async function testClient() {
       title: 'foo-updated',
       body: 'bar-updated',
       userId: 1,
+    });
