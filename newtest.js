@@ -9,3 +9,4 @@ async function testClient() {
     console.log('--- Testing POST ---');
     const createResponse = await client.post('/posts', {
       title: 'foo',
+      body: 'bar',
