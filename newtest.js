@@ -20,3 +20,4 @@ async function testClient() {
       body: 'bar-updated',
       userId: 1,
     });
+    console.log('PUT /posts/1 Response:', updateResponse.data);
