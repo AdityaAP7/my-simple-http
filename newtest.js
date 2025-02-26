@@ -24,3 +24,4 @@ async function testClient() {
     console.log('--- Testing PATCH ---');
       id: 1,
       title: 'foo-updated',
+      body: 'bar-updated',
