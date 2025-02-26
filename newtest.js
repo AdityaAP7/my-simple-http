@@ -41,3 +41,4 @@ async function testClient() {
       headers: {
         'X-Custom-Header': 'MyValue',
       },
+    });
