@@ -42,3 +42,4 @@ async function testClient() {
         'X-Custom-Header': 'MyValue',
       },
     });
+    console.log('GET /posts/2 with custom header:', customHeadersResponse.data);
