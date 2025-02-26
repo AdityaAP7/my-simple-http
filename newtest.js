@@ -44,3 +44,4 @@ async function testClient() {
     });
     console.log('GET /posts/2 with custom header:', customHeadersResponse.data);
     console.log('--- Testing Parallel Requests ---');
+    const [post1, post2] = await Promise.all([
