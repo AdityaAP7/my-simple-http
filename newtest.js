@@ -35,3 +35,4 @@ async function testClient() {
     console.log('PATCH /posts/1 Response:', patchResponse.data);
     console.log('--- Testing DELETE ---');
     const deleteResponse = await client.delete('/posts/1');
+    console.log('DELETE /posts/1 Response:', deleteResponse.data);
