@@ -33,3 +33,4 @@ async function testClient() {
       title: 'patched-title',
     });
     console.log('PATCH /posts/1 Response:', patchResponse.data);
+    console.log('--- Testing DELETE ---');
