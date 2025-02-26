@@ -48,3 +48,4 @@ async function testClient() {
       client.get('/posts/1'),
       client.get('/posts/2'),
     ]);
+    console.log('Parallel - /posts/1:', post1.data);
