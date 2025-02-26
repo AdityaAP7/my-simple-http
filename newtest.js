@@ -23,3 +23,4 @@ async function testClient() {
     console.log('PUT /posts/1 Response:', updateResponse.data);
     console.log('--- Testing PATCH ---');
       id: 1,
+      title: 'foo-updated',
