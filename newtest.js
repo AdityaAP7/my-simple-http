@@ -46,3 +46,4 @@ async function testClient() {
     console.log('--- Testing Parallel Requests ---');
     const [post1, post2] = await Promise.all([
       client.get('/posts/1'),
+      client.get('/posts/2'),
