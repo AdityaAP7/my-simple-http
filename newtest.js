@@ -32,3 +32,4 @@ async function testClient() {
     const patchResponse = await client.patch('/posts/1', {
       title: 'patched-title',
     });
+    console.log('PATCH /posts/1 Response:', patchResponse.data);
