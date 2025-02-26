@@ -47,3 +47,4 @@ async function testClient() {
     const [post1, post2] = await Promise.all([
       client.get('/posts/1'),
       client.get('/posts/2'),
+    ]);
