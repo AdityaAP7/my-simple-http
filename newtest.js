@@ -51,3 +51,4 @@ async function testClient() {
     console.log('Parallel - /posts/1:', post1.data);
   } catch (err) {
     // Log more detailed error info if needed
+    console.error('Error occurred:', {
