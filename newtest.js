@@ -55,3 +55,4 @@ async function testClient() {
       message: err.message,
       stack: err.stack,
       // If your custom client returns status code or response data, log them:
+      // status: err.response?.status,
