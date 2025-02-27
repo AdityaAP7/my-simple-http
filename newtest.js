@@ -58,3 +58,4 @@ async function testClient() {
       // status: err.response?.status,
       // data: err.response?.data,
     });
+  }
