@@ -57,3 +57,4 @@ async function testClient() {
       // If your custom client returns status code or response data, log them:
       // status: err.response?.status,
       // data: err.response?.data,
+    });
