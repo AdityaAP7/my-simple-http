@@ -54,3 +54,4 @@ async function testClient() {
     console.error('Error occurred:', {
       message: err.message,
       stack: err.stack,
+      // If your custom client returns status code or response data, log them:
