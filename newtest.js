@@ -53,3 +53,4 @@ async function testClient() {
     // Log more detailed error info if needed
     console.error('Error occurred:', {
       message: err.message,
+      stack: err.stack,
