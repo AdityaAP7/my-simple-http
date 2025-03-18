@@ -1,5 +1,5 @@
         'Content-Type': 'multipart/form-data',
-29
+29     ...config,
 31
 47   * Utility for basic authentication      headers: {
 const https = require('https');
