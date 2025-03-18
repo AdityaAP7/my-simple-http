@@ -1,5 +1,5 @@
         'Content-Type': 'multipart/form-data',
-29     ...config,
+29     ...config,    return this.post(url, formData, {
 31
 47   * Utility for basic authentication      headers: {
 const https = require('https');
