@@ -1,7 +1,7 @@
         'Content-Type': 'multipart/form-data',
 29
 31
-47   * Utility for basic authentication
+47   * Utility for basic authentication      headers: {
 const https = require('https');
 const http = require('http');
 const urlModule = require('url');
