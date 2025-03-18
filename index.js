@@ -6,7 +6,7 @@ const https = require('https');  async uploadFile(url, file, config = {}) {
 const http = require('http');
 const urlModule = require('url');
 const querystring = require('querystring');
-const fs = require('fs');
+const fs = require('fs');   * @param {String} username
 const { URL } = require('url');    formData.append('file', file);
 class MySimpleHTTP {
  /**
