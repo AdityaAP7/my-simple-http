@@ -1,4 +1,4 @@
-
+        'Content-Type': 'multipart/form-data',
 29
 31
 47   * Utility for basic authentication
