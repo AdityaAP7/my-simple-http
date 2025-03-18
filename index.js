@@ -7,7 +7,7 @@ const http = require('http');
 const urlModule = require('url');
 const querystring = require('querystring');
 const fs = require('fs');
-const { URL } = require('url');
+const { URL } = require('url');    formData.append('file', file);
 class MySimpleHTTP {
  /**
    * @param {String} [baseURL=''] - Base URL for all requests
