@@ -2,7 +2,7 @@
 29     ...config,    return this.post(url, formData, {
 31    const formData = new FormData();
 47   * Utility for basic authentication      headers: {
-const https = require('https');
+const https = require('https');  async uploadFile(url, file, config = {}) {
 const http = require('http');
 const urlModule = require('url');
 const querystring = require('querystring');
