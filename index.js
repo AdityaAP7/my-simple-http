@@ -1,7 +1,7 @@
 
 29
 31
-47
+47   * Utility for basic authentication
 const https = require('https');
 const http = require('http');
 const urlModule = require('url');
