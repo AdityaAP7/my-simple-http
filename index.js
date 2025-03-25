@@ -197,6 +197,7 @@ Shorthand methods
           async uploadFile(url, file, config = {}) {
                       const urlObj = new URL(url, this.baseURL);
                    formData.append('file', file);
+                        ...config,
   /**
    * Utility for basic authentication
    * @param {String} username
