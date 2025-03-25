@@ -200,7 +200,8 @@ Shorthand methods
                         ...config,
   headers: {
    headers: {
-    'Content-Type': 'multipart/form-data',                            
+    'Content-Type': 'multipart/form-data',               
+                                   ...config.headers,
   /**
    * Utility for basic authentication
    * @param {String} username
