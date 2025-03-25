@@ -58,7 +58,7 @@ const urlModule = require('url');
         // Construct full URL
         const fullURL = this.baseURL
           ? new URL(finalConfig.url, this.baseURL).toString()
-          : finalConfig.url;
+          : finalConfig.url;        const parsedURL = urlModule.parse(fullURL);
         const parsedURL = urlModule.parse(fullURL);
         const options = {
           hostname: parsedURL.hostname,
