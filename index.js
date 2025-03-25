@@ -10,6 +10,7 @@ const fs = require('fs');   * @param {String} username
 const { URL } = require('url');    formData.append('file', file);
 class MySimpleHTTP {
         31    const formData = new FormData();
+        const urlModule = require('url');
  /**
    * @param {String} [baseURL=''] - Base URL for all requests
    * @param {Object} [options={}] - Additional options
