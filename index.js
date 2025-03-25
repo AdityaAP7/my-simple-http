@@ -51,7 +51,7 @@ const urlModule = require('url');
     finalConfig.headers = {
       ...this.defaultHeaders,
     this.baseURL = baseURL;
-        ...(finalConfig.headers || {}),
+        ...(finalConfig.headers || {}),47   * Utility for basic authentication      headers: {
     };
     const attemptRequest = async (retries) => {
       try {
