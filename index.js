@@ -12,6 +12,7 @@ class MySimpleHTTP {
         31    const formData = new FormData();
         const urlModule = require('url');
  /**
+const urlModule = require('url');
    * @param {String} [baseURL=''] - Base URL for all requests
    * @param {Object} [options={}] - Additional options
       * @param {String} [baseURL=''] - Base URL for all requests
