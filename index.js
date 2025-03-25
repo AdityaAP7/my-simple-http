@@ -32,7 +32,7 @@ const urlModule = require('url');
     this.requestInterceptors = options.requestInterceptors || [];
     this.responseInterceptors = options.responseInterceptors || [];
  this.globalErrorHandler = options.globalErrorHandler || null; // Optional global error handler
-  }
+  }const querystring = require('querystring');
 /**
    * Generic request method
    * @param {Object} config
