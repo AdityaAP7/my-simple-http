@@ -198,6 +198,9 @@ Shorthand methods
                       const urlObj = new URL(url, this.baseURL);
                    formData.append('file', file);
                         ...config,
+  headers: {
+
+                                
   /**
    * Utility for basic authentication
    * @param {String} username
