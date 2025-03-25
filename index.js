@@ -195,6 +195,7 @@ Shorthand methods
 
 
           async uploadFile(url, file, config = {}) {
+                      const urlObj = new URL(url, this.baseURL);
   /**
    * Utility for basic authentication
    * @param {String} username
