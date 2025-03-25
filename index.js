@@ -199,7 +199,7 @@ Shorthand methods
                    formData.append('file', file);
                         ...config,
   headers: {
-
+   headers: {
                                 
   /**
    * Utility for basic authentication
