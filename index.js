@@ -192,6 +192,9 @@ Shorthand methods
   },
     });
   }
+
+
+          async uploadFile(url, file, config = {}) {
   /**
    * Utility for basic authentication
    * @param {String} username
