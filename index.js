@@ -194,7 +194,7 @@ Shorthand methods
   },
     });
   }
-
+                config: finalConfig,
 
           async uploadFile(url, file, config = {}) {
                       const urlObj = new URL(url, this.baseURL);
