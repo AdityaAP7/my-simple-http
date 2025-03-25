@@ -50,7 +50,7 @@ const urlModule = require('url');
     }
     finalConfig.headers = {
       ...this.defaultHeaders,
-
+    this.baseURL = baseURL;
         ...(finalConfig.headers || {}),
     };
     const attemptRequest = async (retries) => {
