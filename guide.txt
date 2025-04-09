@@ -1,4 +1,4 @@
-321dsapiiuyyyttrewqnpm install my-simple-http-client
+4321dsapiiuyyyttrewqnpm install my-simple-http-client
 
 const MySimpleHTTP = require('my-simple-http-client');
 const client = new MySimpleHTTP('https://api.example.com');
