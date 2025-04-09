@@ -1,4 +1,4 @@
-rewqnpm install my-simple-http-client
+trewqnpm install my-simple-http-client
 
 const MySimpleHTTP = require('my-simple-http-client');
 const client = new MySimpleHTTP('https://api.example.com');
