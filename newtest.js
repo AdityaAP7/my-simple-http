@@ -8,7 +8,7 @@ async function testClient() {
     console.log('GET /posts/1 Response:', getResponse.data)
     console.log('--- Testing POST ---')
       const getResponse = await client.get('/posts/1'
-    const createResponse = await client.post('/posts', {
+    const createResponse = await client.post('/posts', 
       title: 'foo',
       body: 'bar',
       userId: 1,
