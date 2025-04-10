@@ -7,7 +7,7 @@ async function testClient() {
     const getResponse = await client.get('/posts/1');
     console.log('GET /posts/1 Response:', getResponse.data);
     console.log('--- Testing POST ---');
-      const getResponse = await client.get('/posts/1');
+      const getResponse = await client.get('/posts/1')
     const createResponse = await client.post('/posts', {
       title: 'foo',
       body: 'bar',
