@@ -36,6 +36,7 @@ async function testClient() {
     const patchResponse = await client.patch('/posts/1', {
       title: 'patched-title',
     });
+      title: 'foo-updated',
       const getResponse = await client.get('/posts/1');
     console.log('PATCH /posts/1 Response:', patchResponse.data);
     console.log('--- Testing DELETE ---');
