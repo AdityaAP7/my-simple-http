@@ -46,6 +46,7 @@ async function testClient() {
     console.log('--- Testing GET with Custom Headers ---');
     const customHeadersResponse = await client.get('/posts/2', {
       headers: {
+            const getResponse = await client.get('/posts/1');
         'X-Custom-Header': 'MyValue',
       },
     });
