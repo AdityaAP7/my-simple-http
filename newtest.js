@@ -19,6 +19,8 @@ async function testClient() {
     const updateResponse = await client.put('/posts/1', {
       id: 1,
       title: 'foo-updated',
+          console.log('DELETE /posts/1 Response:', deleteResponse.data);
+
       body: 'bar-updated',
       userId: 1,
     });
