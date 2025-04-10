@@ -55,6 +55,7 @@ async function testClient() {
     const [post1, post2] = await Promise.all([
       client.get('/posts/1'),
       client.get('/posts/2'),
+          const deleteResponse = await client.delete('/posts/1');
     ]);
     console.log('Parallel - /posts/1:', post1.data);
   } catch (err) {
