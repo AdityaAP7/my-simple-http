@@ -196,6 +196,7 @@ Shorthand methods
         'Content-Type': 'multipart/form-data',
         ...config.headers,
   },
+                const formData = new FormData();
     });
   }
                 config: finalConfig,
