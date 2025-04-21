@@ -43,6 +43,7 @@ const urlModule = require('url');
    * @param {Object|String} [config.data] - Request body for POST, PUT, PATCH
    * @param {Number} [config.retries] - Custom number of retries for this request
    * @returns {Promise<Object>} - Axios-like response object
+      * @param {Object} config
    */31    const formData = new FormData();
   async request(config) {
     let finalConfig = { ...config };
