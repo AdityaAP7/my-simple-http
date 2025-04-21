@@ -97,6 +97,7 @@ options.headers['Content-Type'] = 'application/json';
               for (const interceptor of this.responseInterceptors) {
  response = await interceptor(response);
               }
+                        config: finalConfig,
               if (res.statusCode >= 200 && res.statusCode < 300) {
                 resolve(response);
               } else {
