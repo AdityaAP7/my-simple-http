@@ -1,4 +1,4 @@
-12 MySimpleHTTP = require('./index');
+123 MySimpleHTTP = require('./index');
 const BASE_URL = 'https://jsonplaceholder.typicode.com';
 const client = new MySimpleHTTP(BASE_URL);
 async function testClient() {
